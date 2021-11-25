@@ -1,0 +1,439 @@
+WAMPP
+LAMPP
+MAMP
+
+XAMPP
+
+X: Cross platform (Windows, Linux, MacOS)
+Apache: web server(server files)
+MySQL / MariaDB: database
+PHP: PHP Hypertext Processor, Apache MODULE
+P: Perl (scripting language)
+
+Visual Studio (25G)
+
+Java: compiled binary
+
+JavaScript: 
+
+17 000$
+21 000$
+
+HTML
+
+PHP: programming language
+if else then
+
+loops
+
+variables
+
+connect DB
+
+server side programming language
+
+PHP: 50% + 75%
+ASP: Microsoft Advanced Server  PAges
+JSP: Java Server Pages
+
+------------------------------------------------
+20JAN
+
+file system
+
+windows
+
+\for folders
+cd c:/downloads
+----------------
+everyone else
+
+/
+
+linux server
+
+absolute path(complete)
+c:\windows\myfile.txt
+a:\>
+a:\		5.25" floppy disk(700k)		ms dos
+b:\		3.25" floppy disk (1.44 mb)
+c:\		windows hdd
+d:\		dvd drive
+e:\		usb key
+...
+z:
+
+c:
+d:
+its an absolute path
+
+/tmp
+/ root folder
+root user
+root (real administrator)
+
+Administrators
+Administrator
+
+SYSTEM (real windows admin)
+
+relative path
+current folder:
+/home/jf/doc
+
+i want to go into /home/jf/downloads
+
+cd../downloads
+
+..		previous folder
+.		current folder
+
+NEVER USE ABSOLUTE PATH
+ALWAYS USE RELATIVE PATHS
+
+<img src="c:\xampp\htdocs\abc.jpg">
+
+<img src="c:\xampp\htdocs\abc.jpg">
+
+structure:
+index.html		<img src="images/Abc.jpg">
+
+"images" folder
+	Abc.jpg
+
+-------------
+public folder for XAMPP
+
+only one website
+c:\xampp\htdocs\index.html
+
+many website
+c:\xampp\htdocs\cars\index.html		<img src="images/Ferrari.jpg">		..
+				cars\images
+c:\xampp\htdocs\manage\index.html
+-----------------
+c:\xampp\htdocs (windows)
+/opt/lampp/htdocs (linux)
+-------------
+1. create a folder named c:\xampp\htdocs\orignal
+2. move all files/folders in c:\xampp\htdocs\* into the orignal folder (c:\xampp\htdocs\orignals\*)
+3. 
+
+--------------
+A-Z
+a-z
+0-9
+!"/$%&*()
+
+1 byte: 8 bit
+
+00000000
+00000001
+00000010
+11111111 : 256 possibilities
+
+a= 00011000
+b= 00011001
+---------------------
+UNICODE
+
+4 bytes = 32 bits
+a = 00000000 00000000 00000000 00011000
+b = 00000000 00000000 00000000 00011001
+
+sql server
+--------------------
+utf-8
+
+a = 00011000
+
+2 byte, only when necessary
+e = 00011000 00011010
+
+Montreal
+--------------------
+to get notepad++
+1. download "rhash for windows" from sourceforge.net
+2. extract the zip file in a folder forexample, c:\rhash
+3. download notepad++ from official website
+4. download 64 bit version of most recent
+5. get the checksum of the binary packages
+6. c:\rhash\rhash.exe  --sha356 c:\users\jf\downloads\notepad
+7. if checksum is valid, install notepad
+
+--------------------
+ide (integrated development environment)
+
+netbeans
+
+lts - longterm support
+
+rhash --sha512 apache-netbeans...exe
+
+1. download "rhash for windows" from sourceforge.net
+2. extract the zip file in a folder for example c:\rhash
+3. download netbeans from apache website
+4. verify the sha-512 checksum:
+	c:\rhash\rhash.exe --sha512 c:\users\jf\downloads\apache-netbeans...exe
+5. if checksum is ok, installnetbeans
+-----------------------
+rightclick "my pc", click properties, on one the tab click 'environment variable'. find the path variable and add "c:\rhash". reboot. then the rhash command will be available from any folder
+
+jdk
+java development kit
+netbeans requires java
+
+daemon: service
+----------------------
+1. create new project
+2. select php
+3. give a name to your project
+4. create your project in netbeansprojects folder (recommended) or create it in htdocs (not recommended)
+5. adjust the port for apache, if required. for example localhost:8088
+6. copy files in c:\xampp\htdocs\...
+7. write hello world
+8. select a browser
+9. click green arrow (or press f6) to test your website
+-----------------------------------------------------------------------
+22 JAN
+
+events:
+
+keypress
+key down
+key up
+
+Notepad
+
+Hello Montreal
+
+A=65
+B=66
+e=130
+
+Left Alt + 130
+Right  Alt (Car) + 0233
+
+Windows Serrtings, keyboard layout: Layout
+english Canada, english canada
+
+Browser cache memory
+
+HTTP status code
+404 page not found
+
+web server cache memory
+
+stop/restart web server
+
+F5 - cache memory
+CTRL + F5 - force reload
+
+UTF-8
+USA:
+
+Montreal
+load data from DB
+------------------------------
+1. make sure the data is in UTF-8 format (file, database)
+
+2. send the UTF-8 network headers in the response
+
+3. write <meta... UTF-8> tag in your HTML document
+
+firefox
+chrome
+
+safari
+opera
+epiphany
+brave
+links
+
+either save HTML file(ANSI, Windows-1252)
+-------------
+if you need to rename the folder then right click on the folder refactor > rename
+
+to replace the word in netbeans CTRL+H to change the name
+--------------
+debug a variable
+
+1. echo
+
+2. var_dump($variable name)	shows to you all info about a variable
+
+3. print_r($variable name)	shows you less info, but is more human redable
+------------
+use -(minus sign) and smaller case letters in naming convention then you will go up in the google results
+---------------------------------------------------
+27Jan
+
+variable
+
+---------------------------------------------------
+29Jan
+
+
+---------------------------------------------------
+3Feb
+
+array -> JSON -> object(standard) (for loop indexed array)
+
+object -> JSON - object(datetime)(cant for loop)
+foreach
+
+key => value
+object -> property/method
+
+functions(methods)
+
+variables(properties)
+---------------------------------------------------
+5Feb
+
+echo a message saying:
+Welcome to "Bob's website is pretty nice"
+
+escape characters
+
+\
+
+my\ file
+
+"Welcome to \"Bob's website is pretty nice\"."
+
+vcs
+version control system
+
+git (linus torvalds)		github.com(holds git repository - 7.5 billions)
+(you must not delete your project folder)
+
+subversion (apache)
+(you can delete (by mistake) your project folder because the databse (repository) is in another folder)
+
+mercurial
+
+visual studio 2000$/per pc/per year vcs
+
+source safe
+
+---------------------
+
+1. create an empty project
+2. click on team - git - initialize repository
+3. make sure the correct folder is selected, or click browse to fix it
+
+----------------------
+
+4. write your code (add, remove, delete)
+5. commit your work (right click project, git - commit write appropriate commit message)
+
+--------------------------
+revert: go back to last commit
+
+checkout: sync my local files to a specific version
+
+master
+HEAD
+
+color codes:
+
+green : added new files
+blue : modify
+red : remove
+
+black : ok, included in git
+-----------------------
+
+workplace: commit at the end of project
+
+.exe
+.dll
+.exe
+
+installer.exe
+
+invoice
+
+-----------------------------------------------------
+23Feb
+
+Create a form with the following fields:
+
+Make:
+Model:
+Year:
+
+Validate all feilds, and display error messages in RED beside each field:
+Make, string, cannot be empty, 10 characters max. The make could not be empty
+Make, string, not empty, 15 characters max The model could not...
+Year: between 1990 and (current year +1)
+
+Make: Honda
+Model: Civic
+Year: 1995
+
+<div>	display: block
+<span>	display: inline
+
+uuid: space and time
+date
+time
+macaddress
+random number
+
+perform the sale
+empty the cart
+------------------
+if the validation fails, fill the textboxes with the data entered by the user
+
+if the validation succeeds, clear all the fields, and write on the top of the <form>: Transaction completed successfully
+-----------------------
+pdo (php data objects): 12 different databases. easier to debug
+
+mysql (deprecated)
+
+mysqli (mysql improved)
+
+---------------------
+SQL statements: SELECT * from....WHERE field = " . $_POST
+
+.exe (executable)
+.txt (viewable)
+.jpg
+
+SQL Prepared Statements
+
+:email  :pwd    .txt    DROP DATABASE   #
+
+<?php
+$query = "select * from customers where"
+
+#make sure the customers have enough money to buy product
+-------------------------------------------------
+AJAX/JavaScript
+
+questions
+
+review projects
+--------------------------------------
+browser:
+html code (<!DOCUMENT html> css)
+
+Javascript is the only programming language still running in the browser after the page is loaded
+
+"document" mean page source
+
+"window" means the rectangle you see in the browser
+
+width
+height
+class-name
+value:jobs
+
+<forms> : the entire webpage will be reloaded <form> validation
+
+AJAX: to modify only one small part of the webpage
+
+                        LaSalle College
+

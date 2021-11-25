@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2021, 4:07:32 PM
+    Author     : hp
+*/
+
+
+  /* Register form */
+  .sign-up-container {
+	border: 1px solid;
+	border-color: #9a9a9a;
+	background: #fff;
+	border-radius: 4px;
+	padding: 10px;
+	width: 450px;
+	margin: 50px auto;
+}
+
+h2{
+    text-align: center;
+}
+.inline-block {
+	display: inline-block;
+}
+
+.row {
+	margin: 15px 0px;
+	text-align: center;
+        color: black;
+}
+
+.form-label {
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+input.input-box-330 {
+	width: 250px;
+}
+
+input.btn {
+	width: 250px
+}
+
+.signup-align {
+	margin: 0 auto;
+}
+
+.page-content {
+	font-weight: bold;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.p{
+    color: black;
+}

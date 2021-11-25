@@ -1,0 +1,9 @@
+//Revision History
+//Mansi Vakharia(1932450)    24-Feb-2021    Added css for functions and the page
+
+//css for the table displayed
+table{
+    color: black;
+    border: 1px solid black;
+    border-color: black;
+}

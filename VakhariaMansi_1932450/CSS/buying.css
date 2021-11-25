@@ -1,0 +1,49 @@
+//Revision History
+//Mansi Vakharia(1932450)    13-Feb-2021    Created an empty file for buying page
+//Mansi Vakharia(1932450)    24-Feb-2021    Added css for the form
+//Mansi Vakharia(1932450)    07-Mar-2021    Added css for validation
+
+//when button is hovered
+ .btn:hover {
+    background-color: green;
+  }
+
+  //for displaying the error messages
+  span.error{
+      color: red !important;
+  }
+
+  //when input if not validated
+  input.invalid{
+    border: 2px solid red;
+  }
+  
+  //when validation is okay
+  input.valid{
+    border: 2px solid green;
+  }
+  
+  //The alert message box
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+// The close button
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+// When moving the mouse over the close button
+.closebtn:hover {
+  color: black;
+}

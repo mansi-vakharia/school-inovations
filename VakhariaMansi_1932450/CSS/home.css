@@ -1,0 +1,14 @@
+//Revision History
+//Mansi Vakharia(1932450)    24-Feb-2021    Created home.css to add the style specific for homepage
+//Mansi Vakharia(1932450)    24-Feb-2021    Added css for advertising
+
+//css for adjusting the slider
+.advertising_background
+{
+	top: 0;
+	left: 0;
+	width: 100%;
+        background: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+}
